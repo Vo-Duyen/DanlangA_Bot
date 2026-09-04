@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\DanlangA_Bot.pdb
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\pet.json
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\failed.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\idle.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\jumping.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\review.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\running-left.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\running-right.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\running.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\waiting.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\previews\waving.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\spritesheet.webp
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\assets\rem--l1\submission.json
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\config\config.json
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\config\states.json
+C:\Users\Admin\Desktop\DanlangA_Bot\publish\DanlangA_Bot.exe

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "PxYcc2lrM+g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\DanlangA_Bot\\AnalyzeAtlas\\AnalyzeAtlas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\skiasharp\\3.116.1\\skiasharp.3.116.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.116.1\\skiasharp.nativeassets.macos.3.116.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.116.1\\skiasharp.nativeassets.win32.3.116.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

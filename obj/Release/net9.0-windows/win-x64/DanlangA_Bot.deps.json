@@ -1,0 +1,185 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {},
+    ".NETCoreApp,Version=v9.0/win-x64": {
+      "DanlangA_Bot/1.0.0": {
+        "dependencies": {
+          "SkiaSharp": "3.116.1",
+          "SkiaSharp.NativeAssets.Win32": "3.116.1",
+          "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "9.0.11"
+        },
+        "runtime": {
+          "DanlangA_Bot.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/9.0.11": {
+        "runtime": {
+          "Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Collections.Concurrent.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Collections.Immutable.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Collections.NonGeneric.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Collections.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.ComponentModel.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.ComponentModel.TypeConverter.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Diagnostics.Process.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Diagnostics.StackTrace.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.IO.Compression.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.IO.MemoryMappedFiles.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.IO.Pipelines.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.IO.Pipes.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Memory.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.ObjectModel.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Private.CoreLib.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Reflection.Metadata.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Runtime.InteropServices.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Runtime.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Security.AccessControl.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Security.Claims.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Text.Json.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.Threading.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          },
+          "System.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "9.0.1125.51716"
+          }
+        }
+      },
+      "SkiaSharp/3.116.1": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.116.1"
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.dll": {
+            "assemblyVersion": "3.116.0.0",
+            "fileVersion": "3.116.1.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/3.116.1": {
+        "native": {
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DanlangA_Bot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/9.0.11": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SkiaSharp/3.116.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DNDwbRjP+aMo27dV2h/uHCVTcWubWWxHnPLiePNyl24f4Pv43mQ8AQQeseOrKR+J3AOCEs6t0sUjo0aa3j3RWQ==",
+      "path": "skiasharp/3.116.1",
+      "hashPath": "skiasharp.3.116.1.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/3.116.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dRQ75MCI8oz6zAs2Y1w6pq6ARs4MhdNG+gf3doOxOxdnueDXffQLGQIxON54GDoxc0WjKOoHMKBR4DhaduwwQw==",
+      "path": "skiasharp.nativeassets.win32/3.116.1",
+      "hashPath": "skiasharp.nativeassets.win32.3.116.1.nupkg.sha512"
+    }
+  },
+  "runtimes": {
+    "win-x64": [
+      "win",
+      "any",
+      "base"
+    ]
+  }
+}

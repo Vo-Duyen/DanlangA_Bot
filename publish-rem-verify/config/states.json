@@ -1,0 +1,126 @@
+{
+  "initial_state": "idle",
+  "states": {
+    "idle": {
+      "fps": 4,
+      "frame_count": 6,
+      "atlas_row": 0,
+      "loop": true,
+      "min_duration_ms": 4000,
+      "max_duration_ms": 9000,
+      "transitions": [
+        { "target": "waving",  "weight": 20 },
+        { "target": "waiting", "weight": 25 },
+        { "target": "running", "weight": 30 },
+        { "target": "review",  "weight": 15 },
+        { "target": "idle",    "weight": 10 }
+      ]
+    },
+    "waving": {
+      "fps": 7,
+      "frame_count": 4,
+      "atlas_row": 1,
+      "loop": false,
+      "transitions": [
+        { "target": "idle", "weight": 100 }
+      ]
+    },
+    "waiting": {
+      "fps": 7,
+      "frame_count": 6,
+      "atlas_row": 2,
+      "loop": true,
+      "min_duration_ms": 4000,
+      "max_duration_ms": 8000,
+      "transitions": [
+        { "target": "idle", "weight": 70 },
+        { "target": "waving", "weight": 30 }
+      ]
+    },
+    "running": {
+      "fps": 8,
+      "frame_count": 6,
+      "atlas_row": 3,
+      "loop": true,
+      "min_duration_ms": 3000,
+      "max_duration_ms": 5000,
+      "transitions": [
+        { "target": "idle", "weight": 60 },
+        { "target": "running-right", "weight": 20 },
+        { "target": "running-left", "weight": 20 }
+      ]
+    },
+    "running-right": {
+      "fps": 8,
+      "frame_count": 8,
+      "atlas_row": 4,
+      "loop": true,
+      "min_duration_ms": 2500,
+      "max_duration_ms": 4500,
+      "transitions": [
+        { "target": "idle", "weight": 50 },
+        { "target": "running-left", "weight": 50 }
+      ]
+    },
+    "running-left": {
+      "fps": 8,
+      "frame_count": 8,
+      "atlas_row": 5,
+      "loop": true,
+      "min_duration_ms": 2500,
+      "max_duration_ms": 4500,
+      "transitions": [
+        { "target": "idle", "weight": 50 },
+        { "target": "running-right", "weight": 50 }
+      ]
+    },
+    "jumping": {
+      "fps": 7,
+      "frame_count": 5,
+      "atlas_row": 6,
+      "loop": false,
+      "transitions": [
+        { "target": "idle", "weight": 100 }
+      ]
+    },
+    "review": {
+      "fps": 7,
+      "frame_count": 6,
+      "atlas_row": 7,
+      "loop": true,
+      "min_duration_ms": 3000,
+      "max_duration_ms": 6000,
+      "transitions": [
+        { "target": "idle", "weight": 70 },
+        { "target": "waving", "weight": 30 }
+      ]
+    },
+    "failed": {
+      "fps": 7,
+      "frame_count": 8,
+      "atlas_row": 8,
+      "loop": false,
+      "transitions": [
+        { "target": "idle", "weight": 100 }
+      ]
+    },
+    "dragging": {
+      "fps": 8,
+      "frame_count": 8,
+      "atlas_row": 4,
+      "loop": true,
+      "transitions": []
+    },
+    "happy": {
+      "fps": 7,
+      "frame_count": 4,
+      "atlas_row": 1,
+      "loop": true,
+      "min_duration_ms": 3000,
+      "max_duration_ms": 4500,
+      "transitions": [
+        { "target": "idle", "weight": 100 }
+      ]
+    }
+  }
+}

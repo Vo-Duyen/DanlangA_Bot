@@ -1,0 +1,53 @@
+{
+  "pet": {
+    "asset_dir": "assets/rem--l1",
+    "manifest_file": "pet.json"
+  },
+  "window": {
+    "relative_x_percent": 85.0,
+    "relative_y_percent": 75.0,
+    "scale": 1.0,
+    "min_scale": 0.5,
+    "max_scale": 3.0,
+    "click_through": false,
+    "topmost": true,
+    "active_fps": 15
+  },
+  "autostart": {
+    "enabled": true,
+    "registry_key_name": "DanlangDesktopPet"
+  },
+  "ipc": {
+    "pipe_name": "pet_assistant_ipc"
+  },
+  "occlusion": {
+    "fullscreen_snooze": true,
+    "check_interval_ms": 2000
+  },
+  "speech_bubble": {
+    "default_duration_ms": 4000,
+    "max_width": 240,
+    "font_size": 13
+  },
+  "staggered_launcher": {
+    "launch_delay_ms": 1500,
+    "items": [
+      {
+        "name": "VS Code",
+        "target": "code",
+        "arguments": "",
+        "enabled": false
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "trigger": "OnStartup",
+      "action": "DisplayToast",
+      "payload": {
+        "text": "Chào bạn! Danlang Bot đã sẵn sàng.",
+        "mood": "happy"
+      }
+    }
+  ]
+}

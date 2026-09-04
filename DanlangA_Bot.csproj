@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>DanlangA_Bot</RootNamespace>
+    <AssemblyName>DanlangA_Bot</AssemblyName>
+    <ApplicationManifest>.config\app.manifest</ApplicationManifest>
+
+    <!-- Publishing & Trimming optimizations -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <PublishTrimmed>true</PublishTrimmed>
+    <TrimMode>partial</TrimMode>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    
+    <!-- Ultra-lightweight footprint optimization -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <IlcGenerateCompleteTypeMetadata>false</IlcGenerateCompleteTypeMetadata>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AnalyzeAtlas\**\*.cs" />
+
+    <None Update="config\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="3.116.1" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="3.116.1" />
+  </ItemGroup>
+
+</Project>
